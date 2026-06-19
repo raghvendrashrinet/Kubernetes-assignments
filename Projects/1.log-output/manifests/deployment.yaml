@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: log-output
+  name: log-output
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: log-output
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: log-output
+    spec:
+      containers:
+      - image: raghvendrashrinet/projects:1.1
+        name: log-gen
+        resources: {}
+status: {}
