@@ -18,5 +18,6 @@ Release:
 - [Exercise 1.3](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/1.3%20hashgenerator)
 Hashgenetrator
 
-Web App with deployment.yaml 
-- - [Exercise 1.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.4%20webapp-on-port)
+
+- [Exercise 1.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.4%20webapp-on-port)
+  Web App with deployment.yaml 
