@@ -11,7 +11,8 @@ First, build your Docker image and push it to Docker Hub so Kubernetes can pull 
 ```bash
 # Build the Docker image
 docker build -t raghvendrashrinet/projects:1.2 .
-
+```
+```
 # Push the image to Docker Hub
 docker push raghvendrashrinet/projects:1.2
 ```
