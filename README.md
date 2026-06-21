@@ -21,5 +21,5 @@ Hashgenetrator
 - [Exercise 1.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.4%20webapp-on-port)
   Web App with deployment.yaml
 
--
+- [Exercise 1.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.5%20Port-forward)
 Port-Forward
