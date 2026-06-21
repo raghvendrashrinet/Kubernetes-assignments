@@ -12,6 +12,7 @@ Release:
 
 - [1.4.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.4)
 - [1.5.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.5)
+- [1.6.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.6)
    
 ## ProjectRepoLink
 - [Exercise1.1](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/2.webapp-on-port) -  Log Output Application  
@@ -23,3 +24,5 @@ Hashgenetrator
 
 - [Exercise 1.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.5%20Port-forward)
 Port-Forward
+
+-  [Exercise 1.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.6%20NodePort)
