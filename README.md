@@ -28,3 +28,5 @@ Port-Forward
 
 -  [Exercise 1.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.6%20NodePort)
    Node-Port
+- [Exercise 1.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.7%20Ingress)
+  Ingress-Traefik-hashgenerator
