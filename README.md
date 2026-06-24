@@ -13,6 +13,7 @@ Release:
 - [1.4.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.4)
 - [1.5.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.5)
 - [1.6.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.6)
+- [1.7.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.7)
    
 ## ProjectRepoLink
 - [Exercise1.1](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/2.webapp-on-port)  Log Output Application  
