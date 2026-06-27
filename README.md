@@ -14,6 +14,8 @@ Release:
 - [1.5.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.5)
 - [1.6.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.6)
 - [1.7.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.7)
+- [1.8.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.8)
+
    
 ## ProjectRepoLink
 - [Exercise1.1](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/2.webapp-on-port)  Log Output Application  
@@ -30,3 +32,5 @@ Port-Forward
    Node-Port
 - [Exercise 1.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.7%20Ingress)
   Ingress-Traefik-hashgenerator
+- [Excercise 1.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.8%20TheProject-Ingress)
+  Using Ingress instead of NodePort
