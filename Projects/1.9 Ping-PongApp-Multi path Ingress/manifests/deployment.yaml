@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: pong-app
+  name: pong-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pong-app
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: pong-app
+    spec:
+      containers:
+      - image: raghvendrashrinet/projects:1.9
+        name: projects
+        resources: {}
+status: {}
