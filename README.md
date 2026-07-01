@@ -15,6 +15,7 @@ Release:
 - [1.6.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.6)
 - [1.7.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.7)
 - [1.8.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.8)
+- [1.9.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.9)
 
    
 ## ProjectRepoLink
@@ -34,3 +35,5 @@ Port-Forward
   Ingress-Traefik-hashgenerator
 - [Excercise 1.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.8%20TheProject-Ingress)
   Using Ingress instead of NodePort
+- [Excercise 1.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.9%20Ping-PongApp-Multi%20path%20Ingress)
+  Multipath(svc) Ingress
