@@ -16,7 +16,8 @@ Release:
 - [1.7.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.7)
 - [1.8.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.8)
 - [1.9.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.9)
-- [1.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.10%20LogOutput-MultiContainerApp)
+- [1.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.10)
+
 
    
 ## ProjectRepoLink
@@ -38,3 +39,5 @@ Port-Forward
   Using Ingress instead of NodePort
 - [Excercise 1.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.9%20Ping-PongApp-Multi%20path%20Ingress)
   Multipath(svc) Ingress
+-  [Excercise 1.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.10%20LogOutput-MultiContainerApp)
+  MultiContainer Pod  with shared storage emptyDir
