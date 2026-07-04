@@ -16,6 +16,7 @@ Release:
 - [1.7.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.7)
 - [1.8.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.8)
 - [1.9.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.9)
+- [1.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.10%20LogOutput-MultiContainerApp)
 
    
 ## ProjectRepoLink
