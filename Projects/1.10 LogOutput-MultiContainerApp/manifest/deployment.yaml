@@ -26,7 +26,9 @@ spec:
         volumeMounts:
         - name: myvol
           mountPath: /mnt/shared
-
+          # init container's job is just to write an empty file into the shared
+          #app container will mount the same shared storage at different location ie /app/
+          # there empty has the log.txt ,mounted by app container at /app/
       containers:
       # 2. Your Log Generator Container
       - image: raghvendrashrinet/projects:hashgenv1
@@ -35,7 +37,7 @@ spec:
         - name: myvol
           mountPath: /app/log.txt
           subPathExpr: log.txt       # Uses subPathExpr to safely mount the file
-
+          # main application container starts, it mounts that exact same myvol volume, but maps it to its own internal location (/app/log.txt) using subPath.
       # 3. Your Web App Container
       - image: raghvendrashrinet/projects:webappv1
         name: webapp
