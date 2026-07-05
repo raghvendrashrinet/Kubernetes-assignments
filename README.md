@@ -41,3 +41,5 @@ Port-Forward
   Multipath(svc) Ingress
 -  [Excercise 1.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.10%20LogOutput-MultiContainerApp)
   MultiContainer Pod  with shared storage emptyDir
+-  [Excercise 1.11](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.11%20Persisting%20data)
+-  PersistingData using pv,pvc and local sotarage
