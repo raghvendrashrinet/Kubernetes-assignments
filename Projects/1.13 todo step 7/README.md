@@ -6,6 +6,12 @@ If the cache is younger than 10 minutes, it serves the same image to every user.
 If the cache is older than 10 minutes, it fetches a new random image and updates the cache. 
 4. Persists Data: It saves the cache to a Persistent Volume (PV) mounted at /data.  This ensures the cache survives if the Kubernetes pod crashes or restarts.
 
+Step 7  Changes Implemented
+*   ** Input Field:** Added an HTML `<input>` field designed for new todo descriptions. 
+    *   *Constraint:* Handled frontend length checking to prevent entering or submitting items that exceed 140 characters.
+*   **Send Button:** Appended a submission button next to the input field. Note that this button currently operates as a visual mockup/stub and does not transmit data back to a backend service yet.
+*   **Todo List View:** Implemented a rendering section loaded with temporary hardcoded todo elements to test UI spacing and styling.
+
 ---
 Infra 
 
@@ -29,3 +35,15 @@ Infra
 
    2. Deploy all resources in the maifest folder
    3. Once all resource are up , browse `http://localhost:8081/`
+--- 
+to check locally
+```
+```bash
+# Example if running via Docker locally
+docker build -t raghvendrashrinet/projects:1.13 .   
+docker run -p 8080:8080 raghvendrashrinet/projects:1.13
+
+# push image to docker hub for testing with kubernets
+docker push raghvendrashrinet/projects:1.13
+```
+
