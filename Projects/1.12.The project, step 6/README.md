@@ -14,7 +14,7 @@ Infra
    - First make a directory ` /tmp/kube` on node `  k3d-k3s-default-agent-0'
    - NodeSelector Part: it ensure to create pod on  k3d-k3s-default-agent-0
    - If the node specified in your nodeAffinity (e.g., k3d-k3s-default-agent-0) is not schedulable (e.g., it is cordoned, tainted, out of resources, or down), your pod will remain stuck in a Pending state indefinitely
-   ```
+```
    local:
     path: /tmp/kube
   nodeAffinity:
@@ -25,7 +25,7 @@ Infra
           operator: In
           values:
           - k3d-k3s-default-agent-0
-   ```
+```
 
    2. Deploy all resources in the maifest folder
    3. Once all resource are up , browse `http://localhost:8081/`
