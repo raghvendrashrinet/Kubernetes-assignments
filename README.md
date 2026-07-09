@@ -2,7 +2,7 @@
 
 ## Exercises
 
-### Chapter 2
+
 Release:
 - [1.1.](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.1)
    
@@ -19,7 +19,7 @@ Release:
 - [1.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.10)
 - [1.11](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.11)
 - [1.12](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.12)
-
+- [1.13](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.13)
 
    
 ## ProjectRepoLink
@@ -45,6 +45,7 @@ Port-Forward
    MultiContainer Pod  with shared storage emptyDir
 -  [Excercise 1.11](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.11%20Persisting%20data)
    PersistingData using pv,pvc and local sotarage
-- [EXCERCISE 1.12]{https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.12.The%20project%2C%20step%206)
+- [EXCERCISE 1.12](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.12.The%20project%2C%20step%206)
   The Project step 6
-  
+ - [EXCERCISE 1.12](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.13%20todo%20step%207)
+  The Project step 7
