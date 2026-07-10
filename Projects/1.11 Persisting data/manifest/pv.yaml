@@ -10,15 +10,8 @@ spec:
   - ReadWriteOnce
   persistentVolumeReclaimPolicy: Delete
   storageClassName: my-example-pv
-  local:
+  hostPath:
     path: /tmp/kube
-  nodeAffinity:
-    required:
-      nodeSelectorTerms:
-      - matchExpressions:
-        - key: kubernetes.io/hostname
-          operator: In
-          values:
-          - k3d-k3s-default-agent-0
+    type: DirectoryOrCreate
 
           
