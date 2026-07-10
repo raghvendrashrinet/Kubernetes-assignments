@@ -23,7 +23,7 @@ spec:
       initContainers:
       - name: init-log-file
         image: busybox:stable
-        command: ['sh', '-c', 'touch /mnt/shared/log.txt']
+        command: ['sh', '-c', 'touch /mnt/shared/log.txt /mnt/shared/pingpong_count.txt && chmod 666 /mnt/shared/log.txt /mnt/shared/pingpong_count.txt']
         volumeMounts:
         - name: myvol
           mountPath: /mnt/shared
@@ -35,7 +35,7 @@ spec:
         volumeMounts:
         - name: myvol
           mountPath: /app/log.txt
-          subPathExpr: log.txt       # Uses subPathExpr to safely mount the file
+          subPath: log.txt       # Mount file from volume
 
       # 3. Your Web App Container
       - image: raghvendrashrinet/projects:webappv1
@@ -43,4 +43,7 @@ spec:
         volumeMounts:
         - name: myvol
           mountPath: /app/log.txt
-          subPathExpr: log.txt       # Uses subPathExpr to safely mount the file
+          subPath: log.txt       # Mount file from volume
+        - name: myvol
+          mountPath: /app/pingpong_count.txt
+          subPath: pingpong_count.txt
