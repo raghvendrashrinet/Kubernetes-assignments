@@ -7,14 +7,7 @@ In an earlier version of this setup, the Ingress was configured to **override `/
 - **Log Output App** → `/`  
 - **Ping Pong App** → `/` (via Ingress rewrite from `/pingpong`)  
 
-This approach worked technically, but it introduced **routing ambiguity** because Traefik had multiple backends bound to the same root path. Requests to `/` were load‑balanced between both apps, which made debugging and user access confusing.
-
-### Why the design was changed
-- Having multiple apps exposed at `/` caused unpredictable behavior.  
-- It was unclear which app a client would hit when accessing `/`.  
-- Logs and counters could appear inconsistent depending on which backend responded.  
-
-### Current clean design
+### Current design
 - `/` → **Log Output App only**  
 - `/pingpong` → **Ping Pong App only**  
 - Ping Pong’s `/` endpoint remains **internal only** (not exposed via Ingress). 
