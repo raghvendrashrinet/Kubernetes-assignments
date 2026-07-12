@@ -20,7 +20,7 @@ Release:
 - [1.11](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.11)
 - [1.12](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.12)
 - [1.13](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/1.13)
-
+- [2.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.1)
 
    
 ## ProjectRepoLink
@@ -49,5 +49,8 @@ Port-Forward
 - [Excercise 1.12](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.12.The%20project%2C%20step%206)
   The Project step 6
 - [Excercise 1.13](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/1.13%20todo%20step%207)
-  The Project 7
-  
+  The Project Step 7
+---
+** Chapter 3**
+- [Excercise 2.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.1%20Connecting%20Pods)
+  Pod Communication
