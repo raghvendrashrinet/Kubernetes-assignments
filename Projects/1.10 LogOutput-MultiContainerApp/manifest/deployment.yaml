@@ -16,7 +16,8 @@ spec:
     spec:
       volumes:
       - name: myvol
-        emptyDir: {}
+        persistentVolumeClaim:
+          claimName: image-claim
 
       # 1. Init Container runs first to guarantee log.txt is a FILE, not a folder
       initContainers:
