@@ -18,6 +18,20 @@ You are going from 1 App to 2 Apps communicating via HTTP:
   - todo-app (Frontend)	3000	   --> 2345 svc(todo-app-svc)
   - todo-backend (Backend)	3000 --> 2345 svc(todo-backend-svc)
 
+##### Folder Structure
+```
+├── Backend/
+│   ├── backend.py
+│   └── Dockerfile
+├── Frontend/
+│   ├── frontend.py
+│   └── Dockerfile
+└── manifests/           
+    ├── backend-deployment.yaml
+    ├── backend-service.yaml
+    ├── frontend-deployment.yaml
+    └── frontend-service.yaml
+```
 #### 3. Step-by-Step Implementation Guide
 #####  Step A: Build the new todo-backend applicatio
 ```python
