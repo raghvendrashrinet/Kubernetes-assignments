@@ -25,6 +25,7 @@ Release:
 - [2.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.1)
 - [2.2](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.2)
 - [2.3](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.3)
+- [2.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.4)
 
    
 ## ProjectRepoLink
@@ -62,3 +63,5 @@ Port-Forward
   The Project Step 8
 - [Excercise 2.3](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.3.%20Keep%20them%20separated(namespaces))
   Keep them Seperate Namespace
+- [Excercise 2.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.4.%20The%20project%2C%20step%209)
+- The Project Step 9 (namespace)
