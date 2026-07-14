@@ -24,6 +24,7 @@ Release:
 **Chapter 3**
 - [2.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.1)
 - [2.2](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.2)
+- [2.3](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.3)
 
    
 ## ProjectRepoLink
@@ -59,3 +60,5 @@ Port-Forward
   Pod Communication
 - [Excercise 2.2](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.2%20The%20Project%20step%208)
   The Project Step 8
+- [Excercise 2.3](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.3.%20Keep%20them%20separated(namespaces))
+  Keep them Seperate Namespace
