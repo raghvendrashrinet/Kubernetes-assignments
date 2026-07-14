@@ -15,7 +15,7 @@ You are going from 1 App to 2 Apps communicating via HTTP:
   - Exposes two HTTP endpoints: GET /todos and POST /todos.
 
 #### 2. The Port Strategy (
-  - todo-app (Frontend)	3000	   --> 2345 svc(todo-app-svc)
+  - todo-app (Frontend)	3000	   --> 2345 svc(todo-frontend-svc)
   - todo-backend (Backend)	3000 --> 2345 svc(todo-backend-svc)
 
 ##### Folder Structure
@@ -28,9 +28,10 @@ You are going from 1 App to 2 Apps communicating via HTTP:
 │   └── Dockerfile
 └── manifests/           
     ├── backend-deployment.yaml
-    ├── backend-service.yaml
+    ├── backend-svc.yaml
     ├── frontend-deployment.yaml
-    └── frontend-service.yaml
+    └── frontend-svc.yaml
+    └── ingress.yaml
 ```
 #### 3. Step-by-Step Implementation Guide
 #####  Step A: Build the new todo-backend applicatio
@@ -69,41 +70,38 @@ Modify your existing frontend server logic so that when a user loads the page:
 
 3. When a user submits a new todo via the form, the frontend catches the POST, passes it along to http://todo-backend-svc:2345/todos, and re-renders the page.
 
-##### Step C: Add the Kubernetes Manifests
-backend Manifest
-```yaml
-# backend-deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: todo-backend-dep
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: todo-backend
-  template:
-    metadata:
-      labels:
-        app: todo-backend
-    spec:
-      containers:
-        - name: todo-backend
-          image: YOUR_DOCKER_USERNAME/todo-backend:latest
-          ports:
-            - containerPort: 3000
----
-# backend-service.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: todo-backend-svc
-spec:
-  type: ClusterIP
-  selector:
-    app: todo-backend
-  ports:
-    - port: 2345
-      protocol: TCP
-      targetPort: 3000
+##### Step C: Add the Kubernetes Manifests and deploy
+ `/manifest/'
+```bash
+kubectl apply -f manifests/
 ```
+---
+#### Verify app running
+**Method A** : Verification via Port-Forwarding
+```
+ kubectl port-forward service/todo-frontend-svc 82:2345
+```
+Access the UI : Open Browser and navigate : `http://localhost:82`
+
+**Method B**: Verification via Ingress (Traefik)
+The project includes an ingress.yaml configuration to route traffic using Traefik.
+
+Access the Frontend UI: Navigate to your local Traefik router endpoint:
+```
+ http://localhost:8081/
+```
+##### ⚠️ Note on Backend Exposure (Demo Only):
+In a production architecture, the backend service (todo-backend-svc) remains an internal ClusterIP and is never exposed via Ingress. However, for the sake of this demo,the Ingress manifest explicitly exposes the backend routing rule:
+
+```yaml
+- backend:
+    service:
+      name: todo-backend-svc
+      port:
+        number: 2345
+  path: /todos
+  pathType: Exact
+```
+Test : `http://localhost:8081/todos`
+
+
