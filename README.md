@@ -27,6 +27,7 @@ Release:
 - [2.3](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.3)
 - [2.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.4)
 - [2.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.5)
+- [2.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.6)
 
    
 ## ProjectRepoLink
@@ -67,4 +68,6 @@ Port-Forward
 - [Excercise 2.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.4.%20The%20project%2C%20step%209)
   The Project Step 9 (namespace)
 - [Excercise 2.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.5%20ConfigMap)
-  ConfigMapp added in Logoutput project 
+  ConfigMapp added in Logoutput project
+- [Excercise 2.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.6.%20The%20project%2C%20step%2010)
+  2.6. The project, step 10:  no hard coded ports, URLs, or other configurations 
