@@ -1,6 +1,6 @@
 #### Todo App Step-8
 
-- In Step 7, you have a single monolith app (todo-app) 
+- In Step 7, we have a single monolith app (todo-app) 
 that handles the UI, downloads/caches the daily image via a Persistent Volume, and displays a hardcoded list of todos.
 
 **For Step 8, the exercise wants you to split the data management out into a separate microservice called `todo-backend`**
