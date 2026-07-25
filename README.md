@@ -28,6 +28,7 @@ Release:
 - [2.4](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.4)
 - [2.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.5)
 - [2.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.6)
+- [2.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.7)
 
    
 ## ProjectRepoLink
@@ -70,4 +71,6 @@ Port-Forward
 - [Excercise 2.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.5%20ConfigMap)
   ConfigMapp added in Logoutput project
 - [Excercise 2.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.6.%20The%20project%2C%20step%2010)
-  2.6. The project, step 10:  no hard coded ports, URLs, or other configurations 
+  2.6. The project, step 10:  no hard coded ports, URLs, or other configurations
+- [Excercise 2.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.7.%20Stateful%20app-logout-ping-postgres)
+  2.7  Stateful Logoutput project *Postgress+logout+ping*
