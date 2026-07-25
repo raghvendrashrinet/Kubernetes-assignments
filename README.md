@@ -29,6 +29,7 @@ Release:
 - [2.5](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.5)
 - [2.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.6)
 - [2.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.7)
+- [2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.8)
 
    
 ## ProjectRepoLink
@@ -74,3 +75,5 @@ Port-Forward
   2.6. The project, step 10:  no hard coded ports, URLs, or other configurations
 - [Excercise 2.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.7.%20Stateful%20app-logout-ping-postgres)
   2.7  Stateful Logoutput project *Postgress+logout+ping*
+- [Excercise 2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.8.%20The%20project%2C%20step%2011)
+  The Project Step 10 (Todo) - Backend DB Postgres
