@@ -76,4 +76,4 @@ Port-Forward
 - [Excercise 2.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.7.%20Stateful%20app-logout-ping-postgres)
   2.7  Stateful Logoutput project *Postgress+logout+ping*
 - [Excercise 2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.8.%20The%20project%2C%20step%2011)
-  The Project Step 10 (Todo) - Backend DB Postgres
+  The Project Step 11 (Todo) - Backend DB Postgres
