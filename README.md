@@ -79,4 +79,4 @@ Port-Forward
 - [Excercise 2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.8.%20The%20project%2C%20step%2011)
   The Project Step 11 (Todo) - Backend DB Postgres
 - [Excercise 2.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.9.%20The%20project%2C%20step%2012-Jobs)
-  The project Step 12 HourlyCronjob polpulatin todo with random url
+  The project Step 12 HourlyCronjob polpulating todo with random url
