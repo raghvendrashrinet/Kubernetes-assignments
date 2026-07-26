@@ -30,6 +30,7 @@ Release:
 - [2.6](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.6)
 - [2.7](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.7)
 - [2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.8)
+- [2.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.9)
 
    
 ## ProjectRepoLink
@@ -77,3 +78,5 @@ Port-Forward
   2.7  Stateful Logoutput project *Postgress+logout+ping*
 - [Excercise 2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.8.%20The%20project%2C%20step%2011)
   The Project Step 11 (Todo) - Backend DB Postgres
+- [Excercise 2.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.9.%20The%20project%2C%20step%2012-Jobs)
+  The project Step 12 HourlyCronjob polpulatin todo with random url
