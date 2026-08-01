@@ -4,7 +4,7 @@ metadata:
   name: wiki-todo-cronjob
   namespace: project
 spec:
-  schedule: "0 * * * *"  # Every minute for demo/testing
+  schedule: "1 * * * *"  # Every minute for demo/testing
   jobTemplate:
     spec:
       template:
