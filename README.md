@@ -32,7 +32,11 @@ Release:
 - [2.8](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.8)
 - [2.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.9)
 - [2.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/2.10)
-   
+
+**Chapter 4**
+- [3.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/3.1)
+
+---
 ## ProjectRepoLink
 - [Exercise1.1](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/2.webapp-on-port)  Log Output Application  
 - [Exercise 1.2](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/1.log-output)  Web Server with Specific Port
@@ -81,5 +85,8 @@ Port-Forward
 - [Excercise 2.9](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.9.%20The%20project%2C%20step%2012-Jobs)
   The project Step 12 HourlyCronjob populating todo with random url
 - [Excercise 2.10](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/2.10.%20The%20project%2C%20step%2013-Added%20Observabilty)
-  The Project step 13 - Added Observabilty 
-  
+  The Project step 13 - Added Observabilty
+
+**Chapter 4**
+- [Excercise 3.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/3.1.%20Pingpong%20Cloud-Persisting%20data-Azure)
+   Pingpong App on the Azure Cloud
