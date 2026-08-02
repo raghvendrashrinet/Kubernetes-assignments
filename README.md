@@ -35,7 +35,7 @@ Release:
 
 **Chapter 4**
 - [3.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/3.1)
-
+- [3.2](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/3.2)
 ---
 ## ProjectRepoLink
 - [Exercise1.1](https://github.com/raghvendrashrinet/Kubernetesassignments/tree/main/Projects/2.webapp-on-port)  Log Output Application  
@@ -90,3 +90,5 @@ Port-Forward
 **Chapter 4**
 - [Excercise 3.1](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/3.1.%20Pingpong%20Cloud-Persisting%20data-Azure)
    Pingpong App on the Azure Cloud
+- [Excercise 3.2](https://github.com/raghvendrashrinet/Kubernetes-assignments/tree/main/Projects/3.2%20Pingpon%20app%20with%20Ingress(both%20app%20in%20FastAPI))
+  Logout app with Ingress and Ingress Controller on Azure 
